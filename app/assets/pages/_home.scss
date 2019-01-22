@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.contentChat {
+  height: 100vh;
+  padding: 1em;
+
+  h1 {
+    color: $dark-grey;
+    padding: 1em;
+
+    b {
+      color: $primary-color;
+    }
+  }
+}
+
+.sendMessage {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+
+  .form {
+    width: 90%;
+  }
+}

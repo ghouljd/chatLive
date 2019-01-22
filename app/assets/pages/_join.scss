@@ -1,0 +1,45 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the join page.
+// -----------------------------------------------------------------------------
+
+.joinBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.cardJoin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  padding: 1.5em;
+  padding-bottom: 0em;
+  background-color: #6ec2ec9c;
+  border-radius: 0.25em;
+
+  .joinLogo {
+    position: absolute;
+    top: 22.5vh;
+    left: 38vw;
+    border-radius: 0.2em;
+  }
+
+  h1,
+  h2 {
+    color: $mid-grey !important;
+  }
+
+  h2 {
+    margin-bottom: 4em;
+  }
+
+  .button {
+    background-color: #fff !important;
+    color: $primary-color !important;
+    border-radius: 0.15em;
+  }
+}
